@@ -11,6 +11,7 @@ body{
 	background-color: white;
 	font-family: Karla;
 	text-transform: uppercase;
+	margin:0;
 }
 
 a{color:white;
@@ -28,6 +29,11 @@ a:hover{color: black}
 }
 
 
+.matress{
+	padding-top: 100px;
+}
+
+
 .barre{
 	position: fixed;
 	background-color: #54bfa6;
@@ -38,20 +44,14 @@ a:hover{color: black}
 	margin-bottom: 10px;
 	box-shadow: 0px 6px 0px 0px rgba(0,0,0,0.45);
 	font-weight: bold;
-
-
 }
 
 .footer{
 	width: 100%;
 	background-color: #54bfa6;
 	height:50px;
-
 	bottom: 0%;
 	left: 0%;
-
-
-
 	text-align: center;
 	font-weight: bold;
 }
@@ -64,10 +64,14 @@ a:hover{color: black}
 	top:60px;
 	left: 10px;
 	background-color: #82d0be;
-	padding-left: 5px;
 	box-shadow: 0px 6px 0px 0px rgba(0,0,0,0.53);
 	font-weight: bold;
 
+
+}
+
+.sidebarlink{
+	padding-left: 20px;
 }
 
 .karla{
@@ -92,7 +96,6 @@ a:hover{color: black}
 }
 
 
-
 </style>
 	
 	<head>
@@ -107,17 +110,17 @@ a:hover{color: black}
 
 
 
-<title>Nom du Site</title>
+<title>Name</title>
 </head>
 
 	<body>
-<div class="barre"><span class="button"> <a href="#"><i class="fas fa-bars "></i> menu</a></span>
+<!-- top bar -->
+<div class="barre"><span class="button"> <a href="#"><i class="fas fa-bars "></i> menu</a></span></div>
 
-
-</div>
+<!-- side bar -->
 <div class="sidebar"">
-<a href="#"><img src="logo.png" alt="" width="150px"></a><br />
-<a href="#">Dec.</a><br />
+<a href="#"><img src="logo.png" alt="" width="150px";"></a><br />
+<div class="sidebarlink"><a href="#">Dec.</a><br />
 <a href="#">Nov.</a><br />
 <a href="#">Oct.</a><br />
 <a href="#">Sep.</a><br />
@@ -128,9 +131,10 @@ a:hover{color: black}
 <a href="#">Avr.</a><br />
 <a href="#">Mar.</a><br />
 <a href="#">Fev.</a><br />
-<a href="#">Jan.</a><br /></div>
+<a href="#">Jan.</a><br /></div></div>
 
-<div class="article">
+<!-- topbar/title of the first article -->
+<div class="article matress">
 
 <p><h2>Lorem ipsum</h2><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat sem sed ex dapibus, nec sollicitudin purus commodo. Donec maximus tortor vitae augue bibendum ultricies. Suspendisse ac molestie elit. Donec sapien felis, rutrum sit amet ornare sit amet, ornare eu libero. Vivamus velit nunc, fringilla a augue non, tempor mollis leo. Morbi consectetur posuere magna, sed finibus metus commodo a. Nunc fringilla quam eget sem eleifend iaculis. Sed tempor, libero congue blandit tempus, sapien magna egestas turpis, a viverra ex nisi ut velit. Aliquam erat volutpat. Vivamus sed venenatis mauris. Nunc pellentesque nunc nulla, sit amet vulputate mauris porttitor at.
 
@@ -153,7 +157,7 @@ Donec molestie justo arcu, id aliquam felis cursus nec. Duis eget velit odio. Pe
 
 Vestibulum ultrices sem non quam laoreet, at tincidunt augue rutrum. Cras vel nunc nisi. Integer luctus ex in mi suscipit sollicitudin. Maecenas eget cursus odio. Vivamus dui leo, aliquet a pharetra id, blandit vitae ex. Duis finibus iaculis sem ut aliquam. Ut quis tortor luctus, eleifend felis id, suscipit lorem. Aenean mattis nisl ut tortor malesuada, non pretium felis auctor. Nunc bibendum, elit id molestie malesuada, nibh ante interdum dolor, sit amet commodo dui nisi id augue. Nulla in ex quis elit pulvinar mollis sit amet nec odio. Morbi sit amet sollicitudin diam. Proin nec congue nisl. Cras mattis arcu mi, eu rhoncus felis interdum eu. Pellentesque eget dignissim dui. In in eleifend lacus. </p> </div>
 
-
-	<div class="footer"> <a href="#">back to top</a></div>
-	</body>
+<!-- footer -->
+<div class="footer"> <a href="#">back to top</a></div>
+</body>
 </html>
