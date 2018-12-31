@@ -1,0 +1,109 @@
+/* style.css */
+html{height: 100%}
+body{
+	background-color: white;
+	font-family: Karla;
+	text-transform: uppercase;
+	margin:0;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li ul li {
+	display: none;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+.weeklist{
+	font-size: 20px;
+	display: block;
+}
+
+a{color:white;
+	text-decoration: none;
+}
+a:hover{color: black}
+
+.article{
+	margin:0px 40px 80px 200px;
+	text-align: justify;
+	font-family: "Merriweather"
+	font-weight: normal;
+	text-transform:initial;
+	font-size: 20px;
+}
+
+
+.matress{
+	padding-top: 100px;
+}
+
+
+.barre{
+	position: fixed;
+	background-color: #54bfa6;
+	height: 50px;
+	width: 100%;
+	top: 0%;
+	left:0%;
+	margin-bottom: 10px;
+	box-shadow: 0px 6px 0px 0px rgba(0,0,0,0.53);
+	font-weight: bold;
+}
+
+
+.footer{
+	width: 100%;
+	background-color: #54bfa6;
+	height:50px;
+	bottom: 0%;
+	left: 0%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sidebar{
+	height: 80%;
+	width:150px;
+	font-size: 25px;
+	position:fixed;
+	top:60px;
+	left: 10px;
+	background-color: #8ee5d1;
+	box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.53);
+	font-weight: bold;
+
+
+}
+
+.sidebarlink{
+	padding-left: 20px;
+}
+
+
+.karla{
+	font-family: "Karla", monospace;
+	font-size: 0.8rem;
+	font-weight: 900;
+}
+
+.button{
+	font-size: 17px;
+	border-radius: 40px;
+	border: white 5px;
+	font-weight: 600;
+	float: right;
+	margin-right: 25px;
+	margin-top: 15px;
+}
+
+.button:hover{
+	color:black ;
+
+}
